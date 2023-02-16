@@ -4,8 +4,6 @@ export const Layout = () => {
 
     const location = useLocation()
 
-    console.log(location)
-
     return (
         <div className="md:flex md:min-h-screen">
             <aside className="md:w-1/4 bg-blue-900 px-5 py-10">
@@ -16,8 +14,8 @@ export const Layout = () => {
                     className={`${location.pathname === '/' ? 'text-blue-300' : 'text-white'} text-2xl block mt-2 hover:text-blue-300 `}
                      to='/'>Clientes</Link>
                     <Link 
-                    className={`${location.pathname === '/clientes/nuevo  ' ? 'text-blue-300' : 'text-white'} text-2xl block mt-2 hover:text-blue-300 `}
-                    >Nuevo Cliente</Link>
+                    className={`${location.pathname === '/clientes/nuevo' ? 'text-blue-300' : 'text-white'} text-2xl block mt-2 hover:text-blue-300 `}
+                    to='/clientes/nuevo'>Nuevo Cliente</Link>
 
                 </nav>
 
