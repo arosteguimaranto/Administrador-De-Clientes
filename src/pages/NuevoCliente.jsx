@@ -14,6 +14,9 @@ export const NuevoCliente = () => {
           Volver
         </button>
       </div>
+
+      <div className=' bg-white shadow rounded-md md:w-3/4 mx-auto px-5 py-10'>
+      <p> Formulario Aqui</p> </div>
     </>
   )
 } 
