@@ -34,22 +34,6 @@
       "telefono": 1398198938,
       "email": "pedro@juan.com",
       "empresa": "Codigo Con Juan"
-    },
-    {
-      "nombre": "Dylan",
-      "empresa": "ninjato",
-      "email": "brendamaranto@gmail.com",
-      "telefono": "7821823011",
-      "notas": "jeje",
-      "id": 6
-    },
-    {
-      "nombre": "Dylan",
-      "empresa": "chistos",
-      "email": "brendamaranto@gmail.com",
-      "telefono": "7821823011",
-      "notas": "sfsefsefef",
-      "id": 7
     }
   ]
 }
